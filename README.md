@@ -13,3 +13,11 @@ Try running the following commands:
 - Join the [chat](http://slack.getdbt.com/) on Slack for live discussions and support
 - Find [dbt events](https://events.getdbt.com) near you
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+
+
+###  EXAMPLE CODE ON stitch_utils:
+
+`{{ stitch_utils.coalesce_fields(relation = source('stitch','table_name')) }}`
+
+[https://hub.getdbt.com/fishtown-analytics/stitch_utils/latest/](docs)
+[https://www.postgresqltutorial.com/postgresql-coalesce/](notes on COALESCE)
