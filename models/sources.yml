@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: jeffrey_shop_data
+    database: dbt-bq-learn-on-demand
+    tables:
+      - name: customers
+      - name: orders
+      - name: payments
