@@ -19,6 +19,6 @@ Try running the following commands:
 
 `{{ stitch_utils.coalesce_fields(relation = source('stitch','table_name')) }}`
 
-[https://hub.getdbt.com/fishtown-analytics/stitch_utils/latest/](docs)  
+[docs](https://hub.getdbt.com/fishtown-analytics/stitch_utils/latest/)  
 
-[https://www.postgresqltutorial.com/postgresql-coalesce/](notes on COALESCE)
+[notes on COALESCE](https://www.postgresqltutorial.com/postgresql-coalesce/)
