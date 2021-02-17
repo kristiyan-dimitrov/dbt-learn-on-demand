@@ -2,8 +2,10 @@ version: 2
 
 models:
   - name: stg_customers
+    description: This is description for the entire model (in this case stg_customers)
     columns: 
       - name: customer_id
+        description: This is description for the specific column (in this case customer_id)
         tests:
           - unique
           - not_null
