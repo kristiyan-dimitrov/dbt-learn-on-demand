@@ -11,6 +11,7 @@ models:
           - not_null
 
   - name: stg_orders
+    description: "{{doc('doc_block_reference_name')}}"
     columns: 
       - name: status
         tests:
